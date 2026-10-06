@@ -1,0 +1,28 @@
+<svg width="32" height="32" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="50%" stop-color="#C59B27" />
+      <stop offset="100%" stop-color="#9A7B1C" />
+    </linearGradient>
+    <linearGradient id="shieldNavyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+  <path
+    d="M24 4L8 10V22C8 32.5 14.8 42.1 24 44C33.2 42.1 40 32.5 40 22V10L24 4Z"
+    fill="url(#shieldNavyGrad)"
+    stroke="url(#shieldGoldGrad)"
+    stroke-width="2.5"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M16 15H19V17H22V15H26V17H29V15H32V19H16V15Z"
+    fill="url(#shieldGoldGrad)"
+  />
+  <path
+    d="M24 22C21.8 22 20 23.8 20 26C20 27.4 20.7 28.6 21.8 29.3L21 34H27L26.2 29.3C27.3 28.6 28 27.4 28 26C28 23.8 26.2 22 24 22Z"
+    fill="url(#shieldGoldGrad)"
+  />
+</svg>
