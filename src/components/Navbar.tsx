@@ -93,12 +93,8 @@ export const Navbar: React.FC = () => {
 
         {/* DESKTOP RIGHT ACTIONS: CART & SUPPORT */}
         <div className="desktop-right-actions">
-          <Link href="tel:+18001234567" className="call-cta-btn" style={{ marginRight: '10px' }}>
-            <Phone size={24} className="phone-icon-pulse" />
-            <div className="call-btn-text">
-              <span className="call-btn-label">24/7 Expert Support</span>
-              <span className="call-btn-number">1-800-123-4567</span>
-            </div>
+          <Link href="/contact" className="nav-link-item">
+            Support
           </Link>
           <Link href="/cart" className="btn btn-primary cart-pill-btn" aria-label={`View Cart with ${cartCount} items`}>
             <ShoppingBag size={18} />
