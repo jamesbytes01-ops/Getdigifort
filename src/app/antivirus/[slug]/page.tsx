@@ -218,8 +218,51 @@ const renderBrandHeroVisual = (slug: string, brandName: string) => {
     );
   }
 
+  if (slug === 'webroot') {
+    return (
+      <div className="card brand-visual-card webroot-visual">
+        <div className="visual-badge-header">
+          <BrandLogo slug="webroot" size={42} />
+          <div>
+            <span className="visual-title">Webroot BrightCloud® Scanner</span>
+            <span className="visual-subtitle"><span className="pulse-dot green" /> Cloud Intelligence Connected</span>
+          </div>
+        </div>
+
+        <div className="webroot-banner">
+          <div className="zap-badge">
+            <Zap size={22} className="text-green" />
+          </div>
+          <div>
+            <h4 className="webroot-banner-title">20-Second Instant Scan</h4>
+            <p className="webroot-banner-sub">60x faster than traditional desktop scanners</p>
+          </div>
+        </div>
+
+        <div className="widget-box green-tint">
+          <div className="widget-row">
+            <span>Memory Footprint</span>
+            <span className="widget-val text-green">3.8 MB RAM (Zero Lag)</span>
+          </div>
+          <div className="progress-track">
+            <div className="progress-fill green" style={{ width: '8%' }} />
+          </div>
+        </div>
+
+        <div className="supported-os-box">
+          <span className="os-box-label">Supported Operating Systems:</span>
+          <div className="os-chips">
+            <span className="chip"><Monitor size={13} /> Windows 11/10</span>
+            <span className="chip"><Laptop size={13} /> macOS</span>
+            <span className="chip"><Smartphone size={13} /> Mobile</span>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div className="card brand-visual-card webroot-visual">
+    <div className="card brand-visual-card">
       <div className="visual-badge-header">
         <BrandLogo slug={slug} size={42} />
         <div>
